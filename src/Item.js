@@ -47,7 +47,7 @@ export class Item  extends Component {
                 <span style={descriptionStyle}>{description}</span>
                 <p style={priceStyle}>RD${price.toFixed(2)}/Unit</p>
                 <p style={promotionStyle}>{promotion}</p>
-                <p style={linkStyle}><a href="index.js">View Details</a></p>
+                <p style={linkStyle}><a href="#">View Details</a></p>
                 <div className="bottomElement">
                     <button className="btn sub-btn">-</button>
                     <input type="number" pattern="[0-9]*" inputMode="numeric" min="0" placeholder="0"></input>
